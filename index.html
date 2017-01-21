@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="./favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Favicons</title>
+	</head>
+	
+	<body>
+	<div id="CONTAINER">
+		
+		<h1>Favicons</h1>
+		
+		<h2>Inhalt</h2>
+		<ul>
+			<li><a href="#whatis">Was ist das?</a></li>
+			<li><a href="#browser">Welche Browser werden unterstützt?</a></li>
+			<li><a href="#needed">Was wird benötigt?</a></li>
+			<li><a href="#insert">Wie wird es eingefügt?</a></li>
+			<li><a href="#create">Wie wird es erstellt?</a></li>
+			<li><a href="#tools">Welche Tools gibt es?</a></li>
+		</ul>
+
+
+		<h2><a name="whatis">Was ist das?</a></h2>
+		
+			Ein Favicon (<b>Fav</b>orit + <b>Icon</b>) bietet die Möglichkeit, eine Homepage mit einfachen Mitteln 
+			ansprechender zu gestalten und optisch hervorzuheben. Weiterhin bietet das Favicon die Möglichkeit 
+			den Wiedererkennungswert einer Seite zu erhöhen.<br />
+			Das Favicon ist ein kleines Bild, welches an verschiedenen Orten in der Benutzerumgebung des Internetusers 
+			angezeigt wird. Am häufigsten und offensichtlichsten ist die Darstellung des Icons in der Adresszeile des 
+			jeweiligen Browsers (s. <a href="#browser">unterstützte Browser</a>). Hier wird es meist links von der jeweiligen 
+			Adresse angezeigt.<br />
+			<br />
+			<img src="addressbar.jpg" alt="Favicon in Adressleiste" /><br />
+			<br />
+			Weiterhin erscheint das Symbol ggf. beim Erstellen eines Bookmarks,<br />
+			<br />
+			<img src="bookmarks.jpg" alt="Favicon in Bookmarkleiste" /><br />
+			<br />
+			als Fileicon bei Verknüpfungen, sowie in der Titelleiste der Tabs in entsprechenden Browsern.<br />
+			<br />
+			<img src="tab.jpg" alt="Favicon in Tableiste" /><br />
+		
+		<h2><a name="browser">Welche Browser werden unterstützt?</a></h2>
+
+			Favicons wurden zum ersten Mal 1998 mit dem Internet Explorer 5.0-Beta eingeführt. Als zweiter Browser unterstützte 
+			der Linux-Browser Konqueror die Icons. Seit dem verbreitete sich die Unterstützung dafür schnell und ist heutzutage 
+			in unterschiedlicher Implementierung unter Anderem in folgenden Browsern zu finden:
+			<ul>
+				<li>Microsoft Internet Explorer, seit Version 5.0-Beta, 1998</li>
+				<li>Konqueror, seit Anfang 2001</li>
+				<li>Mozilla, seit Version 0.9.6, Ende 2001</li>
+				<li>Netscape Navigator, seit Version 7.0-PR1, Anfang 2002</li>
+				<li>Opera, seit Version 7.0, 2002</li>
+				<li>iCab, seit Version 3.0b394, 2006</li>
+				<li>Mozilla Camino</li>
+				<li>Mozilla Firefox</li>
+				<li>Minimo</li>
+				<li>Galeon</li>
+				<li>Safari</li>
+				<li>SeaMonkey</li>
+				<li>Shiira</li>
+				<li>SunriseBrowser</li>
+			</ul>
+			
+			Der IE zeigte die Icons ursprünglich erst an, wenn die entsprechende Seite zu den Bookmarks hinzugefügt wurde. Mit dem
+			IE7 werden sie jedoch ofort beim Laden der Seite angezeigt.
+		
+
+		<h2><a name="needed">Was wird benötigt?</a></h2>
+		
+			Um ein Favicon für eine Homepage benutzen zu können wird zu aller Erst ein entsprechendes Icon benötigt. Dieses 
+			muss im Format .ico (MIME-Type image/vnd.microsoft.icon) vorliegen.<br />
+			Das Format .ico ermöglicht es verscheidenen Versionen einer Grafik in nur einer einzigen Datei zu speichern.
+			So kann das gleiche Bild in verschiedenen Größen und Farbtiefen abgespeichert werden. Für die standardmäßige 
+			Anzeige im Browser (Adressleiste, Bookmark) wird im Allgemeinen ein Icon in der Größe 16x16 Pixeln benötigt. 
+			Die Farbtiefe kann dabei zwischen 2, 16 und 256 Farben variiert werden. In der Praxis sind 16 Farben meist volkommen 
+			ausreichend, außerdem kann so die Dateigröße möglichst gering gehalten wird.
+			Liegt das Icon nich in der entsprechenden Größe vor, wird das von Größe und Farbtiefe am ehesten entsprechende 
+			Bild verwendet und entsprechend konvertiert (z.B. Vergrößert/Farbtiefe reduziert). Für das Favicon ist es sinnvoll
+			Das Bild in der Größe 32x32 Pixel zu hinterlegen. Als Farbtiefe sind 16 Farben (Standard-VGA) meist volkommen 
+			ausreichend.
+		
+		<h2><a name="insert">Wie wird es eingefügt?</a></h2>
+		
+			Um das Favicon nun auch darstellen zu lassen gibt es verschiedene Möglichkeiten. Es werden jedoch nicht von allen 
+			Browsern alle Möglichkeiten unterstützt.<br />
+			<br />
+			<u>Ein Favicon pro Domain:</u> (<a href="bsp_global.html">Codebeispiel</a>)<br />
+			Um ein gemeinsames Favicon für alle Seiten der Domain zu verwenden, ist es möglich die entsprechende Datei im 
+			root-Verzeichnis des Webauftritts abzulegen.<br />
+			<br />
+			<u>Ein Favicon pro Site:</u><br />
+			Um für jede Seite ein eigenes Favicon angeben zu können gibt es die Möglichkeit die entsprechende Datei in einem
+			link-Tag im Header der HTML-Seite anzugeben. Hierbei gibt es zwei verschiedene Möglichkeiten:
+			<ul>
+				<li>
+					<span class="code">&lt;link rel="icon" href="pfad/zum/favicon.ico" type="image/x-icon"&gt;</span><br />
+					<a href="bsp_icon.html">Codebeispiel</a>
+				</li>
+				<li>
+					<span class="code">&lt;link rel="shortcut icon" href="pfad/zum/favicon.ico" type="image/x-icon"&gt;</span><br />
+					<a href="bsp_shortcuticon.html">Codebeispiel</a>
+				</li>
+			</ul>
+			Auch bei dieser Variante unterstützt nicht jeder Browser beide Möglichkeiten. Die rel="shortcut icon"-Version
+			wird eher von älteren Browsern unterstützt, während neuere Versionen häufig nur die Version rel="icon" richtig 
+			interpretieren. Am Sichersten ist es daher beide Varianten zu implementieren (<a href="bsp_both.html">Codebeispiel</a>).<br />
+			<br />
+			Die richtige Verwendung des Favicons kann z.B. mit einem <a href="http://www.html-kit.com/favicon/validator/">
+			Online Validator</a> geprüft werden.
+		
+		<a name="create"><h2>Wie wird es erstellt?</h2></a>
+		
+			Um ein Favicon im gewünschten Format .ico zu erstellen gibt es verschiedene Möglichkeiten. Es kann entweder ein 
+			Grafikprogramm nach Wahl benutzt werden um die Grafik zu erstellen. Diese wird dann in einem gängigen Format gespeichert 
+			und mit geeigneten Konvertierungsprogrammen ins .ico-Format umgewandelt.<br />
+			Es gibt jedoch auch Programme die es ermöglichen direkt Grafiken im gewünschten Format zu erstellen.<br />
+			Weiterhin bieten verschiedene Anbieter die Möglichkeit an, Favicons über ein Skript direkt im Browser zu erstellen.
+			
+		<h2><a name="tools">Welche Tools gibt es?</a></h2>
+		
+			An dieser Stelle sollen einige hilfreiche Werkzeuge zum Umgang mit Favicons aufgelistet werden. Die hier gelisteten 
+			Produkte sind alle als Freeware erhältlich<br />
+			<br />
+			<u>Online:</u>
+			<ul>
+				<li><a href="http://www.html-kit.com/favicon/validator/">Online Validator</a></li>
+				<li><a href="http://www.kgreene.com/favicongen.php"> Favicon Cretor</a></li>
+				<li><a href="http://www.chami.com/html-kit/services/favicon/">Favicon from Pics</a></li>
+			</ul>
+			<u>Konvertierung:</u>
+			<ul>
+				<li><a href="http://www.winterdrache.de/freeware/png2ico/">png2ico</a> (Kommandozeile)</li>
+				<li><a href="http://www.irfanview.de/">IrfanView</a> </li>
+			</ul>
+			<u>Grafikprogramme:</u>
+			<ul>
+				<li><a href="http://www.telegraphics.com.au/sw/">.ico-Plugin</a> für Photoshop</li>
+				<li><a href="http://www.onlythebestfreeware.com/program.asp?program_id=135">IconEdit32</a></li>
+			</ul>
+		
+	</div>
+	</body>
+</html>

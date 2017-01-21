@@ -1,0 +1,23 @@
+@media screen{
+
+	#CONTAINER {
+		margin: auto;
+		width: 650px;
+		text-align: justify;
+		font-family: sans-serif;
+	}
+	
+	.code {
+		background-color: silver;
+		border-style: dashed;
+		border-width: 1px;
+		text-align: left;
+		font-family: monospace;
+		font-size: 10pt;
+	}
+	
+	h2 {
+		padding-top: 50px;
+	}
+
+}
